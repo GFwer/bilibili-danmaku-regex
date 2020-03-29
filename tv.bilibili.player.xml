@@ -1,0 +1,19 @@
+<filters>
+<item enabled="true">t=bilibili</item>
+<!-- 第一、前100 -->
+<item enabled="true">t=^[第前][0-9零一二两三四五六七八九十百千万亿\s]+$</item>
+<!-- xx分钟前 -->
+<item enabled="true">t=^[0-9一二两三四五六七八九十零][分|分钟|秒]前?$</item>
+<!-- 助攻 -->
+<item enabled="true">t=^.{1,5}助攻$</item>
+<!-- 枯燥 -->
+<item enabled="true">t=^枯燥$</item>
+<!-- 害怕 -->
+<item enabled="true">t=^害怕$</item>
+<!-- 单字 -->
+<item enabled="true">t=^[?？害危草淦]$</item>
+<!-- 就这 -->
+<item enabled="true">t=^/(就这)*\?*/$</item>
+<!-- 打 call -->
+<item enabled="true">t=^(\\.{1,6}\/\s{0,5})*$</item>
+</filters>
