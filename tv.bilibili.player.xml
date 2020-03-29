@@ -1,7 +1,6 @@
 <filters>
-<item enabled="true">t=bilibili</item>
 <!-- 第一、前100 -->
-<item enabled="true">t=^[第前][0-9零一二两三四五六七八九十百千万亿\s]+$</item>
+<item enabled="true">t=^[第前][0-9零一二两三四五六七八九十百千万亿几\s]+$</item>
 <!-- xx分钟前 -->
 <item enabled="true">t=^[0-9一二两三四五六七八九十零][分|分钟|秒]前?$</item>
 <!-- 助攻 -->
@@ -11,9 +10,58 @@
 <!-- 害怕 -->
 <item enabled="true">t=^害怕$</item>
 <!-- 单字 -->
-<item enabled="true">t=^[?？害危草淦]$</item>
+<item enabled="true">t=^[?？害危草淦好顶赞]$</item>
 <!-- 就这 -->
 <item enabled="true">t=^/(就这)*\?*/$</item>
-<!-- 打 call -->
+<!-- 打 call 类弹幕 -->
 <item enabled="true">t=^(\\.{1,6}\/\s{0,5})*$</item>
+<!-- 下次一定 -->
+<item enabled="true">t=^(下次一定)+$</item>
+<!-- 爱了爱了/i了i了 -->
+<item enabled="true">t=^([爱i]了)+$</item>
+<!-- 你币有了/没了 -->
+<item enabled="true">t=^你币[有没]了$</item>
+<!-- vtb -->
+<item enabled="true">t=^(awsl|kksk|hso)$</item>
+<!-- 空降 -->
+<item enabled="true">t=^(空降成功|完美空降)$</item>
+<!-- 考古 -->
+<item enabled="true">t=^.*考古$</item>
+<!-- 承包 -->
+<item enabled="true">t=(偷偷|悄悄|由我)来?(承包|抱走).{0,7}$</item>
+<!-- 表白 -->
+<item enabled="true">t=^表白.{1,5}$</item>
+<!-- 出n看n -->
+<item enabled="true">t=^出.{1,2}看.{1,2}$</item>
+<!-- 弹幕测试 -->
+<item enabled="true">t=^弹幕测试$</item>
+<!-- 大声告诉我 -->
+<item enabled="true">t=^大声(告诉我|说出来)</item>
+<!-- 消灭0️弹幕 -->
+<item enabled="true">t=^消灭[0零]弹幕</item>
+<!-- xx后见 -->
+<item enabled="true">t=^[7七](万|十万|百万)年.{1,3}</item>
+<!-- 留名 -->
+<item enabled="true">t=^.{1,12}留名$</item>
+<!-- xx人 -->
+<item enabled="true">t=^.{1,5}人(陪我看)?$</item>
+<!-- 借你吉言 -->
+<item enabled="true">t=^借[你您]吉言$</item>
+<!-- 关上大门 -->
+<item enabled="true">t=^关上前.{1,2}的大门$</item>
+<!-- 老婆老公 -->
+<item enabled="true">t=^.{0,5}[我你]老[婆公]$</item>
+<!-- 炸鱼 -->
+<item enabled="true">t=^.{0,5}(把我)?炸出来$</item>
+<!-- 干杯 -->
+<item enabled="true">t=干杯$</item>
+<!-- 签到 -->
+<item enabled="true">t=签到|打卡|观光$</item>
+<!-- 在看 -->
+<item enabled="true">t=我?知道你在看|.{0,4}别看了</item>
+<!-- 王冠 -->
+<item enabled="true">t=(献上)?礼炮</item>
+<!-- 炮姐 -->
+<item enabled="true">t=不变的信仰$</item>
+
 </filters>
