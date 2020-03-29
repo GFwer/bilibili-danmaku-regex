@@ -12,7 +12,7 @@
 <!-- 单字 -->
 <item enabled="true">r=^[?？害危草淦好顶赞]$</item>
 <!-- 就这 -->
-<item enabled="true">r=^/(就这)*\?*/$</item>
+<item enabled="true">r=^(就这)*\?*$</item>
 <!-- 打 call 类弹幕 -->
 <item enabled="true">r=^(\\.{1,6}\/\s{0,5})*$</item>
 <!-- 下次一定 -->
